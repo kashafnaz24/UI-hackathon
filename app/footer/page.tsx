@@ -4,6 +4,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram} from '@fortawesome/free-brands-svg-icons';
 import { faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image';
 
 
 
@@ -14,7 +15,12 @@ export default function Footer(){
             <div className="flex gap-10 w-[90%]  mx-auto py-[40px]">
             <div>
                 <div className='flex gap-2'>
-                <img src="/logo.png" alt="logo of website"  className='w-[32px] h-[36px] mt-[2px]'/>
+                <Image
+                 src="/logo.png" 
+                 alt="logo of website"
+                   className='w-[32px] h-[36px] mt-[2px]'
+                   width={32}
+                   height={36}/>
                 <h2 className='text-[#272343] text-[26px]'>Comporty</h2>
                 </div>
                 <p className="text-[16px] my-[30px] w-[250px] h-[72px]">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.

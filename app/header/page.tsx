@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCheck} from '@fortawesome/free-solid-svg-icons';
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header(){
     return(
@@ -15,7 +16,14 @@ export default function Header(){
                     <ul className='flex gap-5 text-[#FFFFFF]'>
                         <li className='flex gap-1'>Eng <img src="/group.svg" alt="drop down" className='w-[20px] h-[20px] mt-[2px]' /></li>
                         <li><Link href="/Faq">Faqs</Link></li>
-                        <li className='flex gap-1'><img src="/error.svg" alt="error" className='w-[20px] h-[20px] mt-[2px]' />Need help</li>
+                        <li className='flex gap-1'>
+                            <Image
+                             src="/error.svg" 
+                             alt="error" 
+                             className='w-[20px] h-[20px] mt-[2px]'
+                             width={20}
+                             height={20}
+                             priority />Need help</li>
                     </ul>
 
                 </div>

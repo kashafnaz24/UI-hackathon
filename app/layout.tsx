@@ -1,4 +1,4 @@
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./globals.css";
 import Header from "./header/page";
 import Footer from "./footer/page";

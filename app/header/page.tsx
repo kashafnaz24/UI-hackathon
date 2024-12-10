@@ -8,7 +8,7 @@ export default function Header(){
     return(
         <div>
             <div className="w-[100%] bg-[#272343] h-[45px]">
-                <div className="flex justify-between w-[90%] mx-auto my-auto pt-[14px] pb-[14px]">
+                <div className="flex justify-between w-[90%] xl:w-[70%] mx-auto my-auto pt-[14px] pb-[14px]">
                     <div className="text-[#FFFFFF] flex gap-1">
                     <FontAwesomeIcon icon={faCheck} className='w-[16px] h-[16px] mt-1 '/>
                     <p>Free shipping on all orders over $50</p>
@@ -37,7 +37,7 @@ export default function Header(){
                 </div>
             </div>
             <div className='w-[100%] bg-[#F0F2F3] h-[84px]'>
-                <div className='flex justify-between w-[90%] mx-auto pt-[20px] pb-[20px]'>
+                <div className='flex justify-between w-[90%] xl:w-[70%] mx-auto pt-[20px] pb-[20px]'>
                     <div className='flex gap-2'>
                     <img src="/logo.png" alt="logo of website"  className='w-[32px] h-[36px] mt-[2px]'/>
                     <h2 className='text-[#272343] text-[26px]'>Comporty</h2>
@@ -50,11 +50,11 @@ export default function Header(){
                 </div>
             </div>
             <div className='w-[100%] bg-[#FFFFFF] h-[74px]'>
-                <div className='flex justify-between w-[90%] mx-auto  pt-[20px] pb-[20px] '>
+                <div className='flex justify-between w-[90%] xl:w-[70%] mx-auto  pt-[20px] pb-[20px] '>
                     <ul className='flex gap-4 list-none font-bold text-[15px]'>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="/">Home</Link></li>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="#">Shop</Link></li>
-                        <li className='text-[#636270] hover:text-[#007580]'><Link href="#">Product</Link></li>
+                        <li className='text-[#636270] hover:text-[#007580]'><Link href="/Product">Product</Link></li>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="#">Pages</Link></li>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="#">About</Link></li>
                     </ul>

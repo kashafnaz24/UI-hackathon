@@ -12,7 +12,7 @@ export default function Footer(){
     return(
         <div >
             <div className="w-[100%] h-[300px] bg-[#E1E3E5]">
-            <div className="flex gap-10 w-[90%]  mx-auto py-[40px]">
+            <div className="flex gap-10 w-[90%] xl:w-[70%]  mx-auto py-[40px]">
             <div>
                 <div className='flex gap-2'>
                 <Image
@@ -69,7 +69,7 @@ export default function Footer(){
             </div>
             </div>
             <div className="w-[100%] h-[50px] bg-[#FFFFFF]" >
-            <div className='text-center w-[90%]  mx-auto py-[10px]'>
+            <div className='text-center w-[90%] xl:w-[80%] mx-auto py-[10px]'>
                 <p className='text-[15px] font-bold text-[#7b7c7c]'>&copy;2021 - Blogy - Designed & Develop by Zakirsoft</p>
             </div>
             </div>

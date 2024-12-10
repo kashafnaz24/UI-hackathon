@@ -14,7 +14,13 @@ export default function Header(){
                     <p>Free shipping on all orders over $50</p>
                     </div>
                     <ul className='flex gap-5 text-[#FFFFFF]'>
-                        <li className='flex gap-1'>Eng <img src="/group.svg" alt="drop down" className='w-[20px] h-[20px] mt-[2px]' /></li>
+                        <li className='flex gap-1'>Eng 
+                            <Image
+                            src="/group.svg"
+                            alt="drop down"
+                            className='w-[20px] h-[20px] mt-[2px]'
+                            width={20}
+                            height={20} /></li>
                         <li><Link href="/Faq">Faqs</Link></li>
                         <li className='flex gap-1'>
                             <Image

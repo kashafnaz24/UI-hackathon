@@ -42,11 +42,13 @@ export default function Header(){
                     <img src="/logo.png" alt="logo of website"  className='w-[32px] h-[36px] mt-[2px]'/>
                     <h2 className='text-[#272343] text-[26px]'>Comporty</h2>
                     </div>
+                    <Link href="/cart">
                     <button className='flex gap-2 bg-[#FFFFFF] py-[10px] px-[12px] text-[#272343] border-none rounded-[6px] w-[120px] h-[44px] '>
                         <FontAwesomeIcon icon={faCartShopping} className='w-[22px] h-[22px]'/> 
                         cart
                         <img src="/No.png" alt="no icon" className='w-[22px] h-[22px]'/>
                     </button>
+                    </Link>
                 </div>
             </div>
             <div className='w-[100%] bg-[#FFFFFF] h-[74px]'>
@@ -56,7 +58,7 @@ export default function Header(){
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="#">Shop</Link></li>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="/Product">Product</Link></li>
                         <li className='text-[#636270] hover:text-[#007580]'><Link href="#">Pages</Link></li>
-                        <li className='text-[#636270] hover:text-[#007580]'><Link href="#">About</Link></li>
+                        <li className='text-[#636270] hover:text-[#007580]'><Link href="/About">About</Link></li>
                     </ul>
                     <ul className='list-none font-bold flex text-[#636270] text-[14px]'>
                         <li className='text-[#636270]'><Link href="/Contact">Contact:</Link></li>

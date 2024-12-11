@@ -312,7 +312,75 @@ export default function product(){
 </div>
 <div  className="w-[100%] bg-[#1E28320D] h-auto p-5">
 <div className="w-[90%] xl:w-[70%]  mx-auto ">
-    
+<p className="text-center text-[30px] my-5">Or subscribe to the newsletter</p>
+<div className="flex justify-center">
+<form className="flex w-full max-w-md border-b border-gray-400">
+    <input 
+      type="email" 
+      placeholder="Email Address..." 
+      className="flex-1 p-2 text-gray-700 bg-[#F3F4F4] outline-none"
+    />
+    <button 
+      type="submit" 
+      className="ml-4 font-bold uppercase text-gray-600  hover:text-black"
+    >
+      Submit
+    </button>
+  </form>
+  </div>
+    <p className="text-center text-[35px] my-5">Follow products and discounts on Instagram</p>
+    <div className="lg:flex lg:justify-between grid grid-cols-3 my-10">
+    <Image
+        src="/topimg-2.png"
+        alt="Featured Products chairs"
+        width={150}
+        height={150}
+        className="  w-[150px] h-[150px]"
+        priority
+      />
+      <Image
+        src="/catagories.jpg"
+        alt="popular styles"
+        width={150}
+        height={150}
+        className="w-[150px] h-[150px]"
+        priority
+      />
+      <Image
+        src="/top3.png"
+        alt="Top categories"
+        width={150}
+        height={150}
+        className="w-[150px] h-[150px]"
+        priority
+      />
+      <Image
+        src="/chair1.png"
+        alt="Featured Products chairs"
+        width={150}
+        height={150}
+        className="w-[150px] h-[150px]"
+        priority
+      />
+      <Image
+        src="/chair4.png"
+        alt="Featured Products chairs"
+        width={150}
+        height={150}
+        className="w-[150px] h-[150px] "
+        priority
+      />
+      <Image
+        src="/chair2.png"
+        alt="Featured Products chairs"
+        width={150}
+        height={150}
+        className="w-[150px] h-[150px]"
+        priority
+      />
+
+    </div>
+
 </div>
 
 </div>

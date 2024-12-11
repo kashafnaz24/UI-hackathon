@@ -42,7 +42,7 @@ export default function Header(){
                     <img src="/logo.png" alt="logo of website"  className='w-[32px] h-[36px] mt-[2px]'/>
                     <h2 className='text-[#272343] text-[26px]'>Comporty</h2>
                     </div>
-                    <Link href="/cart">
+                    <Link href="/Cart">
                     <button className='flex gap-2 bg-[#FFFFFF] py-[10px] px-[12px] text-[#272343] border-none rounded-[6px] w-[120px] h-[44px] '>
                         <FontAwesomeIcon icon={faCartShopping} className='w-[22px] h-[22px]'/> 
                         cart

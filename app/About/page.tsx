@@ -65,6 +65,7 @@ export default function About(){
         </button>
       </div>
     </div>
+    <div className='flex gap-2'>
     <div className="w-[250px] h-[377px] ">
       <Image
         src="/top3.png"
@@ -109,7 +110,7 @@ export default function About(){
         </button>
       </div>
     </div>
-
+    </div>
                 </div>
             </div>
 

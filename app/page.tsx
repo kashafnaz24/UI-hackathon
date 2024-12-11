@@ -11,13 +11,13 @@ export default function Home() {
           <h1 className="font-[sans-serif ] text-[#272343] font-bold text-[60px]  pt-[20px] pb-[20px]">Best Furniture
             Collection for your
             interior.</h1>
-            <button className="flex gap-2 bg-[#029FAE] text-center text-[#FFFFFF] rounded-[8px] h-[52px] w-[171px] px-[24px] py-[14px]">Shop Now
+            <button className="flex gap-2 bg-[#029FAE] text-center hover:shadow-[0px_0px_5px_#029FAE] text-[#FFFFFF] rounded-[8px] h-[52px] w-[171px] px-[24px] py-[14px]">Shop Now
               <Image
               src="/Rightarrow.png"
               alt="rightarrow"
               width={16}
               height={9}
-              className="w-[28px] h-[24px] hover:w-[30px] hover:h-[28px]"
+              className="w-[28px] h-[24px] hover:w-[30px] hover:h-[28px] "
               priority />
             </button>
         </div>

@@ -62,7 +62,7 @@ export default function Footer(){
                 <h2 className='w-[82px] font-bold text-[#9A9CAA] font-sans mb-[20px]'>Newsletter</h2>
                 <div className='my-8'>
                     <input type="text" placeholder='your Email' className='w-[245px] h-[46px] mb-[10px] rounded-[5px] px-2 mr-2' />
-                    <button  className='bg-[#029FAE] text-[#FFFFFF] w-[127px] h-[46px] rounded-[8px] text-center'>Subscribe</button>
+                    <button  className='bg-[#029FAE] hover:shadow-[0px_0px_5px_#029FAE] text-[#FFFFFF] w-[127px] h-[46px] rounded-[8px] text-center'>Subscribe</button>
                 </div>
                 <p className='text-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim.</p>
             </div>

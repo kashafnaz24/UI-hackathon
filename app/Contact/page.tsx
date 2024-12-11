@@ -56,7 +56,7 @@ export default function Contact(){
                         <br />
                         <label htmlFor="name" className='mb-5'>Message</label><br />
                         <textarea placeholder='Hi! I did like to ask about' className='h-[100px] w-[100%] pl-4 border-2 border-[#9F9F9F] rounded-[10px]' />
-                        <button className='bg-[#029FAE] text-[20px] text-[#FFFFFF] rounded-[10px] w-[200px] h-[55px] my-10'>Submit</button>
+                        <button className='bg-[#029FAE] text-[20px] text-[#FFFFFF] rounded-[10px] w-[200px] h-[55px] my-10 hover:shadow-[0px_0px_5px_#029FAE]'>Submit</button>
 
                     </form>
                     </div>

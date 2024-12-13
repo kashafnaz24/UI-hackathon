@@ -42,14 +42,14 @@ export default function About(){
             </div>
             <div className="w-[90%] xl:w-[70%]  mx-auto my-[30px]">
                 <h2 className="text-[34px]">Our Popular Products </h2>
-                <div className="grid grid-cols-1 mx-auto lg:flex gap-2">
+                <div className="w-[60%] my-7 grid grid-cols-1 mx-auto lg:flex gap-2 lg:w-[90%]">
     <div className="w-[450px] h-[377px]">
       <Image
         src="/sofa.jpg"
         alt="The Poplar suede sofa"
         width={450}
         height={312}
-        className="rounded-[2px]"
+        className="rounded-[2px] "
         priority
       />
       

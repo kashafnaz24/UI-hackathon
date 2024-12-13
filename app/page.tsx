@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 import Image from "next/image";
 
 export default function Home() {
@@ -55,12 +56,14 @@ export default function Home() {
          width={63}
          height={63}
          priority  />
-        <Image src="/burntoast.png" 
+        <Image 
+        src="/burntoast.png" 
          alt="companiesLogo"
          width={98}
          height={101}
          priority />
-         <Image src="/panda.png" 
+         <Image 
+         src="/panda.png" 
          alt="companiesLogo"
          width={113}
          height={115}
@@ -76,11 +79,11 @@ export default function Home() {
         <div className='flex my-10 justify-center lg:justify-start'>
           <div className="grid  gap-2 grid-cols-2 lg:grid-cols-4 mb-6">
             {/* Product 1 */}
-    <div className="relative  w-[250px] h-[377px]">
+            <div className="relative  w-[220px] h-[377px]">
       <Image
         src="/chair1.png"
         alt="Featured Products chairs"
-        width={250}
+        width={220}
         height={312}
         className="rounded-[6px] "
         priority
@@ -90,7 +93,7 @@ export default function Home() {
       </button>
       <div className="flex justify-between items-center mt-4 px-2">
         <div>
-          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          <h6 className="text-[18px] font-semibold hover:text-[#007580] cursor-pointer">
             Library Stool Chair
           </h6>
           <p className="text-gray-600 font-medium">$20</p>
@@ -102,21 +105,22 @@ export default function Home() {
     </div>
 
     {/* Product 2 */}
-    <div className="relative w-[250px] h-[377px]">
+    <div className="relative w-[220px] h-[377px]">
+      <Link href="/singleproduct">
       <Image
         src="/chair2.png"
         alt="Featured Products chairs"
-        width={250}
+        width={220}
         height={312}
         className="rounded-[6px] "
         priority
-      />
+      /></Link>
       <button className="absolute top-2 left-2 bg-[#F5813F] text-white px-2 py-1 text-xs rounded">
         Sales
       </button>
       <div className="flex justify-between items-center mt-4 px-2">
         <div>
-          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          <h6 className="text-[18px] font-semibold hover:text-[#007580] cursor-pointer">
             Library Stool Chair
           </h6>
           <p className="text-gray-600 font-medium">$20</p>
@@ -128,11 +132,11 @@ export default function Home() {
     </div>
 
     {/* Product 3 */}
-    <div className="w-[250px] h-[377px]">
+    <div className="w-[220px] h-[377px]">
       <Image
         src="/chair3.png"
         alt="Featured Products chairs"
-        width={250}
+        width={220}
         height={312}
         className="rounded-[6px] "
         priority
@@ -140,7 +144,7 @@ export default function Home() {
       
       <div className="flex justify-between items-center mt-4 px-2">
         <div>
-          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          <h6 className="text-[18px] font-semibold hover:text-[#007580] cursor-pointer">
             Library Stool Chair
           </h6>
           <p className="text-gray-600 font-medium">$20</p>
@@ -152,11 +156,11 @@ export default function Home() {
     </div>
 
     {/* Product 4 */}
-    <div className="w-[250px] h-[377px] ">
+    <div className="w-[220px] h-[377px] ">
       <Image
         src="/chair4.png"
         alt="Featured Products chairs"
-        width={250}
+        width={220}
         height={312}
         className="rounded-[6px] "
         priority
@@ -164,7 +168,7 @@ export default function Home() {
      
       <div className="flex justify-between items-center mt-4 px-2">
         <div>
-          <h6 className="text-lg font-semibold hover:text-[#007580] cursor-pointer">
+          <h6 className="text-[18px] font-semibold hover:text-[#007580] cursor-pointer">
             Library Stool Chair
           </h6>
           <p className="text-gray-600 font-medium">$20</p>
@@ -174,21 +178,21 @@ export default function Home() {
         </button>
       </div>
     </div>
-  </div>
-</div>
-</div>
+    </div>
+    </div>
+    </div>
   <div className="w-[90%] xl:w-[70%]  mx-auto">
   <h2 className="text-[34px] mb-6 mt-4">Top categories</h2>
   <div className="grid  gap-2 grid-cols-3 mb-6">
     
     {/* Product 1 */}
-    <div className="relative w-[300px] h-[377px]">
+    <div className="relative w-[200px] lg:w-[300px] h-[377px]">
       <Image
         src="/wind-chair.png.png"
         alt="Top categories "
-        width={300}
+        width={250}
         height={312}
-        className="rounded-[6px]"
+        className="rounded-[6px] w-[250px] lg:w-[300px]"
         priority
       />
       <button className="absolute top-2 left-2 bg-[#01AD5A] text-white px-2 py-1 text-xs rounded">
@@ -208,13 +212,13 @@ export default function Home() {
     </div>
 
     {/* Product 2 */}
-    <div className="relative w-[300px] h-[377px]">
+    <div className=" relative w-[200px] lg:w-[300px] h-[377px]">
       <Image
         src="/topimg-2.png"
         alt="Top categories"
-        width={300}
+        width={250}
         height={312}
-        className="rounded-[6px]"
+        className="rounded-[6px] w-[250px] lg:w-[300px]"
         priority
       />
       <button className="absolute top-2 left-2 bg-[#F5813F] text-white px-2 py-1 text-xs rounded">
@@ -234,13 +238,13 @@ export default function Home() {
     </div>
 
     {/* Product 3 */}
-    <div className="w-[300px] h-[377px]">
+    <div className="w-[200px] lg:w-[300px] h-[377px]">
       <Image
         src="/top3.png"
         alt="Top categories"
-        width={300}
+        width={250}
         height={312}
-        className="rounded-[6px]"
+        className="rounded-[6px] w-[250px] lg:w-[300px]"
         priority
       />
       

@@ -22,7 +22,8 @@ export default function Header(){
                             width={20}
                             height={20}
                             priority
-                            /></li>
+                            />
+                            </li>
                         <li><Link href="/Faq">Faqs</Link></li>
                         <li className='flex gap-1'>
                             <Image
@@ -39,7 +40,14 @@ export default function Header(){
             <div className='w-[100%] bg-[#F0F2F3] h-[84px]'>
                 <div className='flex justify-between w-[90%] xl:w-[70%] mx-auto pt-[20px] pb-[20px]'>
                     <div className='flex gap-2'>
-                    <img src="/logo.png" alt="logo of website"  className='w-[32px] h-[36px] mt-[2px]'/>
+                    <Image
+                    src="/logo.png" 
+                    alt="logo of website"  
+                    className='w-[32px] h-[36px] mt-[2px]'
+                    width={32}
+                    height={36}
+                    priority
+                    />
                     <h2 className='text-[#272343] text-[26px]'>Comporty</h2>
                     </div>
                     <Link href="/Cart">
